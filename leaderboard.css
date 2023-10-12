@@ -1,0 +1,21 @@
+#equity_leaderboard_content_section{
+    display: none;
+}
+.leaderboard_table tbody td,.leaderboard_table thead th{
+    border: none;
+    vertical-align: middle;
+    font-weight: 600;
+}
+.w_sm{
+    width: 8%;
+    text-align: center;
+}
+.non_hr{
+    height: 50px;
+}
+.leaderboard_table tbody td hr{
+    margin: 0.3rem 0;
+    opacity: 0.1 !important;
+    border: none;
+    border-bottom: 1.5px solid black;
+}

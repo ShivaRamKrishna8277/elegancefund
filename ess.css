@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+::-webkit-scrollbar{
+    width: 5px;
+    background: #bbbbbb;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: #000000;
+}
+.light_scroll_bar::-webkit-scrollbar{
+    width: 1px;
+    height: 1px;
+    background: #bbbbbb;
+}
+.light_scroll_bar::-webkit-scrollbar-thumb{
+    border-radius: 2px;
+    background: #000000;
+}
+.five_p_padding{
+    padding: 5%;
+}
+.tb_five_p{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.lr_five_p{
+    padding-left: 5%;
+    padding-right: 5%;
+}
