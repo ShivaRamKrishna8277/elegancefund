@@ -1,0 +1,13 @@
+#tournament_rules{
+    list-style: disc !important;
+}
+#tournament_rules li{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.377);
+    margin-bottom: 5px;
+    list-style-type: disc;
+}
+#tournament_rules span{
+    color: black;
+}
