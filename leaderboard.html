@@ -14,6 +14,34 @@
     <script src="https://kit.fontawesome.com/6b08050b6d.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="modal fade" id="login_modal" tabindex="-1" aria-labelledby="login_modal_label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header p-4">
+              <h1 class="modal-title fs-5" id="login_modal_label">Login Now</h1>
+              <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body mb-0 p-4">
+                <form action="">
+                    <div class="input-group flex-nowrap">
+                        <span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-user"></i></span>
+                        <input type="text" class="form-control" placeholder="Mobile or Email" aria-label="Username" aria-describedby="addon-wrapping">
+                    </div><br>
+                    <div class="input-group flex-nowrap" style="cursor: pointer;">
+                        <span class="input-group-text" id="addon-wrapping">
+                            <i class="fa-solid fa-eye" id="show_password"></i>
+                            <i class="fa-solid fa-eye-slash" id="hide_password"></i>
+                        </span>
+                        <input type="password" id="password_input" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="addon-wrapping">
+                    </div><br>
+                    <button type="submit" class="btn bg-black text-white w-100" id="login_submit_btn">Login</button>
+                </form>
+                <span class="mt-4 d-block h6"><a href="signup.html" class="text-dark-emphasis text-decoration-none">New User?, Register Now</a></span>
+            </div>
+          </div>
+        </div>
+    </div>
+
     <header class="bg-black">
         <nav class="navbar navbar-expand-lg py-3 lr_five_p">
             <div class="container-fluid p-0">
@@ -36,9 +64,9 @@
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link h6 p-0 text-white m-0 fw-medium d-flex align-items-center" href="login.html">
-                        <span>Login</span>
-                    </a>
+                    <span class="nav-link h6 p-0 text-white m-0 fw-medium d-flex align-items-center" style="cursor: pointer;">
+                        <span data-bs-toggle="modal" data-bs-target="#login_modal">Login</span>
+                    </span>
                   </li>
                 </ul>
               </div>

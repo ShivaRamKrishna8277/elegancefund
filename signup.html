@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assests/images/icon_logo_light.svg" type="image/x-icon">
+    <title>Leaderboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="ess.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6b08050b6d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row g-0">
+            <div class="col-lg-6 px-3 py-4 p-md-5" style="background: url(assests/images/login-sign-bg.svg);">
+                <nav class="d-flex justify-content-between align-items-center pb-3">
+                    <img src="assests/images/logo-only-black.svg" alt="" height="25">
+                    <a href="leaderboard.html" class="text-black fw-medium text-decoration-none">Already a User? Login now.</a>
+                </nav>
+                <section id="signup_sect" class="text-center my-5">
+                    <p class="h4 fw-bold">SIGNUP</p>
+                    <p class="h6">start your journey with us.</p>
+                    <form action="leaderboard.html" id="signup_form" class="mx-lg-5 px-lg-3 mt-4">
+                        <div class="input-group mb-4">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-user"></i></span>
+                            <input type="text" class="form-control" placeholder="Full Name" aria-label="fullname" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-mobile"></i></span>
+                            <input type="tel" class="form-control" placeholder="Mobile Number" aria-label="Mobile-Number" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-envelope"></i></span>
+                            <input type="email" class="form-control" placeholder="Email Address" aria-label="Email-Address" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-lock"></i></span>
+                            <input type="text" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-lock"></i></span>
+                            <input type="password" class="form-control" placeholder="Confirm Password" aria-label="confirm-password" aria-describedby="basic-addon1">
+                        </div>
+                        <input type="submit" class="form-control bg-black text-white" value="Signup">
+                    </form>
+                </section>
+            </div>
+            <div class="d-none d-lg-flex col-lg-6 vh-100 d-flex align-items-center justify-content-center light_bg">
+                <img src="assests/images/login-im.png" alt="" class="img-fluid" style="height: 60%;">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

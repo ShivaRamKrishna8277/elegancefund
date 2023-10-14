@@ -19,3 +19,21 @@ show_equity.addEventListener("click", function(){
     d_leaderboard.style.display = "none";
     e_leaderboard.style.display = "block";
 });
+
+const show_password = document.getElementById("show_password");
+const hide_password = document.getElementById("hide_password");
+const password_input = document.getElementById("password_input");
+
+show_password.addEventListener("click", function(){
+    show_password.style.display = "none";
+    hide_password.style.display = "block";
+    password_input.type = "password";
+});
+hide_password.addEventListener("click", function(){
+    show_password.style.display = "block";
+    hide_password.style.display = "none";
+    password_input.type = "text";
+});
+
+
+

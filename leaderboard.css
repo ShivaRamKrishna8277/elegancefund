@@ -19,3 +19,6 @@
     border: none;
     border-bottom: 1.5px solid black;
 }
+#show_password{
+    display: none;
+}
